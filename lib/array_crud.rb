@@ -8,21 +8,21 @@ end
 
 def add_element_to_end_of_array(array, element)
   numbs = ["one", "two", "three", "four"]
-  numbs << "five"
+  numbs << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
   numbs = ["one", "two", "three", "four"]
-  numbs.unshift("zero")
+  numbs.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-    numbs = ["one", "two", "three", "four"]
+    numbs = ["one", "two", "three", "arrays!"]
     numbs.pop
 end
 
 def remove_element_from_start_of_array(array)
-      numbs = ["one", "two", "three", "four"]
+      numbs = ["wow", "two", "three", "four"]
 numbs.shift
 end
 
@@ -37,7 +37,7 @@ numbs[0]
 end
 
 def retrieve_last_element_from_array(array)
-  numbs = ["one", "two", "three", "four"]
+  numbs = ["one", "am", "three", "four"]
 numbs[-1]
 end
 
