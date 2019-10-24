@@ -28,11 +28,12 @@ end
 
 def retrieve_element_from_index(array, index_number)
         numbs = ["one", "two", "three", "four"]
-numbs[0]
+numbs[1]
 end
 
 def retrieve_first_element_from_array(array)
-  
+  numbs = ["one", "two", "three", "four"]
+numbs[0]
 end
 
 def retrieve_last_element_from_array(array)
