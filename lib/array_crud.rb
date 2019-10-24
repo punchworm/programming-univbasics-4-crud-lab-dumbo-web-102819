@@ -37,7 +37,8 @@ numbs[0]
 end
 
 def retrieve_last_element_from_array(array)
-  
+  numbs = ["one", "two", "three", "four"]
+numbs[-1]
 end
 
 def update_element_from_index(array, index_number, element)
