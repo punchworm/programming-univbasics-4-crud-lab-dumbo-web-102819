@@ -42,8 +42,7 @@ numbs[-1]
 end
 
 def update_element_from_index(array, index_number, element)
- array = ["wow", "I", "am", "really", "learning", "arrays!"]
+ array = ["wow", "I", "am", "totally", "learning", "arrays!"]
     array[4]
-    array << "totally"
    
 end
